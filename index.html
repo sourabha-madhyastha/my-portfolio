@@ -7,43 +7,50 @@
         <link href="styles.css" rel="stylesheet"/>
     </head>
     <body>
-        <h1>IAMDEVELOPER</h1>
-        <nav>
-            <ul >
+        <h1>Sourabha Madhyastha</h1>
+        <nav class="top-nav">
+            <ul class="align-to-right">
             <li class="nonbullet-list"> <a class="white-color-button" href=" ">Home</a></li>
 
-            <li class="nonbullet-list"> <a class="white-color-button" href=" ">Projects</a></li>
+            <li class="nonbullet-list"> <a class="white-color-button" href="projects.html " target="_blank">Projects</a></li>
 
-            <li class="nonbullet-list"> <a class="white-color-button" href=" ">Blogs</a></li>
+            <li class="nonbullet-list"> <a class="white-color-button" href="blogs.html " target="_blank">Blogs</a></li>
             </ul>
         </nav>
         <hr>
         <header id="info">
-        <img src="images/undraw_voice_interface_eckp.svg " alt="image of a girl"/>
+        <img id="girl-img"src="images/undraw_voice_interface_eckp.svg " alt="image of a girl"/>
         <h1 >Hi! I am Sourabha a third year btech student from Javaharlal Nehru National College of Engineering ,Shimoga.</h1>
         </header>
         <hr>
          
         <section class="flow-container">
             <h2>Technologies</h2>
-            <p>
+            <p id="tech-info">
                I am familiar with C, C++ , JAVA , PYTHON , JAVASCRIPT , HTML5 , CSS3 , SQL , SQLITE , DATA STRUCTURE AND ALGORITHM ,STRONG PROBLEM SOLVING SKILLS
             </p>
         </section>
 
         <section class="flow-container">
             <h2>Projects</h2>
-            <p>
-                I like to showcase my work and thus, you can see my projects hosted online
+            <p id="project-info">
+                I like to showcase my work and thus, you can see my projects hosted online.
             </p>
+            <form action="projects.html">
+              <input class="btn" type="submit" value="See Projects"/>
+            </form>
         </section>
 
         <section class="flow-container">
             <h2>Blogs</h2>
-            <p>I am also working on some technical and non techincal blogs. I like to document my journey of learning.
+            <p id="blog-info">I am also working on some technical and non techincal blogs. I like to document my journey of learning.
             </p>
-        </section>
+            <form action="blogs.html">
+                <input class="btn" type="submit" value="Read blogs"/>
+            </form>
 
+        </section>
+    
         <hr>
         <footer>
             <small><strong>Connect  with  me</strong>
